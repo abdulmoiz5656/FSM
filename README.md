@@ -7,12 +7,12 @@ As the machine will be in idle state from starting, as the machine recives the c
 !["FSM"](images/fsm.jpg)
 ## Truth table
 Below is the truth table for the fsm\
-!["Truth table"](images/table1.jpg)
+!["Truth table"](images/table 1.jpg)
 ## K Map
-Below is the K Map for the fsm model.
+Below is the K Map for the fsm model.\
 !["K Map"](images/K Map.jpg)
 ## Boolen Equation
-the boolen equation showed by the images below
+the boolen equation showed by the images below\
 !["state 0](images/state 1.jpg)
 !["state 1](images/state 2.jpg)
 the drived equation in combined form 
@@ -20,33 +20,33 @@ $$S_0 = S_0'S_1$$
 $$S_1 = S_0'I_0$$
 $$O_0 = S_0'S_1I_0$$
 ## code 
-To run this code properly you have to be sure that terminal space is larger.
+To run this code properly you have to be sure that terminal space is larger.\
 ```
 make run
 ./main.o
 ```
 ## Machine 
-As the first state of machine is an idle state as below:
-!["idle state"](images/M 1.jpg)
+As the first state of machine is an idle state as below:\
+!["idle state"](images/m 1.jpg)
 
 Now if the input is:
 "0" the machine remains at idle state
 "1" the machine moves to next step.
 
-As the next step is confirming step as below:
-!["Confirming state"](images/M 2.jpg)
+As the next step is confirming step as below:\
+!["Confirming state"](images/m 2.jpg)
 
 So now from here if the input is:
 "0" the machine moves to the fail state
 "1" the machine moves to sucess state
 
-As if the input is zero the machine moves to fail state which is shown as
-!["failed State"](images/M 4.jpg)
+As if the input is zero the machine moves to fail state which is shown as\
+!["failed State"](images/m 4.jpg)
 
 so from fail state if the machine recives an input "0" or "1" it will moves back to idle state.
 
-As if the input is "1" the machine moves to sucess state as shown
-!["sucess State"](images/M 3.jpg)
+As if the input is "1" the machine moves to sucess state as shown\
+!["sucess State"](images/m 3.jpg)
 
 From here wheather the input is "0" or "1" the machine moves to idle state back.
 So from failed state or from sucess state the machine moves back to the idle state.
