@@ -7,7 +7,7 @@ As the machine will be in idle state from starting, as the machine recives the c
 !["FSM"](images/fsm.jpg)
 ## Truth table
 Below is the truth table for the fsm\
-!["Truth table"](images/table 1.jpg)
+!["Truth table"](images/table1.jpg)
 ## K Map
 Below is the K Map for the fsm model.
 !["K Map"](images/K Map.jpg)
