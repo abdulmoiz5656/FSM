@@ -1,5 +1,7 @@
-#include <stdio.h> 
-#include "mylib/mylib.c"
+#include <conio.h>
+#include <stdio.h>
+#include <unistd.h>
+#include<windows.h>
 
 void goToState(void); 
 
@@ -11,9 +13,9 @@ int main(void) {
 
 	while(1) {
 	printf("\033[2J");  
-        printf("\033[1;1H"); 	
-        xcls();
-        printf("\nVending machine\n");
+        printf("\033[1;1H"); 
+        system("cls");
+        printf("\nmachine\n");
         printf("\nAbdul Moiz\n");
 	    printf("Terminate with Ctrl-C\n\n");
 		goToState();
@@ -173,5 +175,5 @@ void goToState(void) {
             currState = -1;
             break;
 	}
-	xsleep(3000); 
+	sleep(3); 
 }
