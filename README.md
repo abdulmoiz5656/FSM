@@ -14,9 +14,9 @@ Below is the K Map for the fsm model.\
 ## Boolen Equation
 the boolen equation showed by the images below\
 the first state "0" state\
-<img src="images/state 1.jpg" width=500 height=500>\
+<img src="images/state 01.jpg" width=500 height=500>\
 The second state the "1" state\
-<img src="images/state 2.jpg" width=500 height=500>\
+<img src="images/state 02.jpg" width=500 height=500>\
 the drived equation in combined form\
 $$S_0 = S_0'S_1$$
 $$S_1 = S_0'I_0$$
