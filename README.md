@@ -6,7 +6,7 @@ The fsm model is also attached below.
 As the machine will be in idle state from starting, as the machine recives the command of "0" it will remain at the it's idle state but as the machine recives the command "1" the machine will move to the next stage, and from there the machine can go one way from two ways depends on what command is recived by the machine , if the input is "0" the machine will go to failed state but if the input is "1" the machine will move to success state which is the accepting state, and after being on falied or success state if machine recive any command it will move back to idle state.
 !["FSM"](images/fsm.jpg)
 ## Truth table
-Below is the truth table for the fsm
+Below is the truth table for the fsm\
 !["Truth table"](images/table 1.jpg)
 ## K Map
 Below is the K Map for the fsm model.
